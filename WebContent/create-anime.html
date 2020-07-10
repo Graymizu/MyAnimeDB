@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+    <link rel="stylesheet" href="basics.css">
+
+<title>Create Anime</title>
+</head>
+<body>
+<div>
+<form action="/p02-myanimedb-servlets-layers-jdbc/CreateAnime">
+       <h2>Title</h2>  <input type="text"  name="animeName" required/><br/><br/>
+       <h2>Alternate Title</h2>  <input type="text"  name="animeAltName"/><br/><br/>
+       <h2>Score</h2>  <input type="text"  name="animeScore" value = "0" required/><br/><br/>
+       <h2>Favorite</h2><input type="radio" name="favorite" value="true"><br><br/>
+       <h2>Trait</h2><input type="text"  name="animeTraits"/><br/><br/>
+     
+       <input type="submit" value="Add Anime"><br/><br/>
+</form>
+</div>
+</body>
+</html>
